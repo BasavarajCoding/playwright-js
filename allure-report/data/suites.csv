@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","2242","has title","chromium","Sat Apr 26 13:53:41 IST 2025","passed","Sat Apr 26 13:53:44 IST 2025","","example.spec.js","",""
+"","8867","Visual testing","firefox","Sat Apr 26 13:51:12 IST 2025","failed","Sat Apr 26 13:51:21 IST 2025","","MoreValidations.spec.js","",""
+"","2472","get started link","chromium","Sat Apr 26 13:53:41 IST 2025","passed","Sat Apr 26 13:53:44 IST 2025","","example.spec.js","",""
+"","8822","Visual testing","webkit","Sat Apr 26 13:51:12 IST 2025","failed","Sat Apr 26 13:51:21 IST 2025","","MoreValidations.spec.js","",""
+"","2704","Visual testing","chromium","Sat Apr 26 13:51:29 IST 2025","failed","Sat Apr 26 13:51:32 IST 2025","","MoreValidations.spec.js","",""

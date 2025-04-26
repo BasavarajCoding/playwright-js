@@ -1,0 +1,20 @@
+{
+  "name": "playwrightautomationrs",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "End2End": "npx cucumber-js --tags '@End2End' --format html:cucumber_report.html --retry 1 && start cucumber_report.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@azure/microsoft-playwright-testing": "^1.0.0-beta.7",
+    "@cucumber/cucumber": "^11.2.0",
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.13.11",
+    "allure-playwright": "^3.2.1"
+  }
+}

@@ -1,0 +1,1 @@
+C:\Basavaraj\PlaywrightAutomationRS\tests\MoreValidations.spec.js-snapshots\Homepage-chromium-win32.png does not match, writing actual.
