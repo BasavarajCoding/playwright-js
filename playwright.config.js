@@ -7,20 +7,14 @@ import { defineConfig, devices } from '@playwright/test';
 export default defineConfig({
   testDir: './tests',
 
-  // Run tests in files in parallel (improves test execution speed)
-  fullyParallel: false,
+  fullyParallel: true,         // Run tests in parallel across all files
+  workers: process.env.CI ? 4 : 2, // Use 4 workers in CI, or 2 workers locally
 
   // Ensures that tests marked with `.only` are not accidentally committed
   forbidOnly: !!process.env.CI,
 
   // Retries: 2 retries for failed tests, 0 for passing tests.
   retries: 0,
-
-  // Number of workers (parallel test execution)
-  workers: 3,
-
-  
-
 /* 
 Run Playwright Tests with Allure reporting for the Chromium browser.
 npx playwright test example.spec.js --reporter=allure-playwright --project=chromium
@@ -34,9 +28,6 @@ allure open allure-report
 for html reports run below command
 npx playwright test --reporter=html
 */
-
-
-
 // Reporters configuration for different formats
   reporter: [
     ["line"],  // Simple output in the terminal
